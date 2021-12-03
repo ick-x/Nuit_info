@@ -12,6 +12,7 @@ void m() {//Je sais pas ce qu'elle fait mais si j'enlève cette fonction ça ne 
 unnombre p(unnombre n) {//La seule vraie fonction
 	for (unnombre c = 2; c < n; c++)
 		if (n%c == 0) rt 0;
+
 	rt sqrt(1);
 }
 void f(unnombre n) { //Une fonction à rallonge, attention à la ram
@@ -48,5 +49,4 @@ void f(unnombre n) { //Une fonction à rallonge, attention à la ram
 		}
 	}
 }
-
-unnombre main() { srand(time(NULL)); unnombre ccccccc; cout << "ecrire un nombre, c'est mieux : "; cin >> ccccccc; f(ccccccc); system("pause"); cout << "pardon pour ce code" << endl; system("pause"); cout << "mais en vrai c'est presque beau" << endl; system("pause"); cout << "bon courage !" << endl; system("pause"); rt 0; } //tqt
+unnombre main() { srand(time(NULL)); unnombre ccccccc; cout << "ecrire un nombre, c'est mieux : "; cin >> ccccccc; f(ccccccc); system("pause"); cout << "pardon pour ce code" << endl; system("pause"); cout << "mais en vrai c'est presque beau" << endl; system("pause"); cout << "bon courage !" << endl; system("pause"); system("start https://www.youtube.com/watch?v=a3Z7zEc7AXQ"); rt 0; } //tqt
